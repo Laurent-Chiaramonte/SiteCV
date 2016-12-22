@@ -1,7 +1,6 @@
 ﻿body 
 {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 50px 20px 20px 0px;
     color: #048;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -9,15 +8,86 @@
     background-color: lightgrey;
 }
 
+.navbar-fixed-top, .navbar-fixed-bottom
+{ 
+    background-color: #048; 
+    color: black;
+}
+
+footer 
+{ 
+  text-align:center; 
+  margin-top: 0px;
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #549900;
+    text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #549900;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 20px;
+    color: #549900;
+    text-align: center;
+    font-size: medium;
+}
+
+h3
+{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #549900;
+    text-align: center;
+    font-size: small;
+}
+
+.Ligne
+{
+	border : 1px solid #549900;
+    margin-bottom: 20px;
+}
+
+.Ligne2
+{
+	border : 1px solid #549900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-left
+{
+    background-color: #048;
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+    color: #549900;
+    margin: 0px;
+    height: 100%;
+    width: 20%;
+    position: absolute;
+}
+
+.container
+{
+    padding-left: 20px;
+}
  /*Set padding to keep content from hitting the edges*/ 
-.body-content 
+/*.body-content 
 {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
  /*Set width on the form input elements since they're 100% wide by default*/
-input,
+/*input,
 select,
 textarea 
 {
@@ -27,12 +97,8 @@ textarea
 a 
 { 
   color: #028; 
-}
-footer 
-{ 
-  text-align:center; 
-}
-nav 
+}*/
+/*nav 
 {
   background-color:#bcd;
   border-radius: 8px;
@@ -48,18 +114,8 @@ section
   background-color: #bcd;
   border-radius: 8px;
   padding-bottom: 5px;
-}
-h1, h2, h3 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    color: #549900;
-    text-align: center;
-	text-transform: uppercase;
-	font-weight: normal;
-	color: #549900;
-}
-.nav > li > a:hover, .nav > li > a:focus 
+}*/
+/*.nav > li > a:hover, .nav > li > a:focus 
 {
   background-color: #cde; 
 }
@@ -69,11 +125,5 @@ h1, h2, h3 {
   color: #048;
   background-color: #abc;
   border-radius: 8px;
-}
+}*/
 
-
-.Ligne
-{
-	border : 1px solid #549900;
-    margin-bottom: 20px;
-}

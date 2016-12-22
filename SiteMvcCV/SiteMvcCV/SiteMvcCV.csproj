@@ -138,6 +138,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\CV\Competences.cshtml" />
+    <Content Include="Views\CV\Experiences.cshtml" />
+    <Content Include="Views\CV\Diplomes.cshtml" />
+    <Content Include="Views\CV\Divers.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

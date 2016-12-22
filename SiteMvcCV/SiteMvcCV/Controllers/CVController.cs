@@ -13,5 +13,25 @@ namespace SiteMvcCV.Controllers.CV
         {
             return View();
         }
+
+        public ActionResult Competences()
+        {
+            return View();
+        }
+
+        public ActionResult Diplomes()
+        {
+            return View();
+        }
+
+        public ActionResult Experiences()
+        {
+            return View();
+        }
+
+        public ActionResult Divers()
+        {
+            return View();
+        }
     }
 }
